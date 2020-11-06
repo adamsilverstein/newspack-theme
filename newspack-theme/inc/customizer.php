@@ -469,7 +469,7 @@ function newspack_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'header_primary_menu_color_hex',
 		array(
-			'default'           => '#4a4a4a',
+			'default'           => '',
 			'sanitize_callback' => 'sanitize_hex_color',
 		)
 	);
